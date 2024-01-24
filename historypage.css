@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+  }
+  
+  /* nav bar styling starts from here  */
+  .navbar {
+    background-color: #212121;
+    height: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .hamburgericon {
+    width: 18px;
+    height: 13px;
+    padding-top: 18px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .YTlogo {
+    width: 90px;
+    height: 20px;
+    padding-top: 15px;
+    padding-left: 16px;
+  }
+  
+  .searchsection {
+    display: flex;
+    height: 39px;
+    width: 370px;
+    background-color: #303030;
+    margin-top: 9px;
+    margin-bottom: 4px;
+    margin-left: 340px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  
+  .searchsection .searchbox {
+    height: 37px;
+    width: 362px;
+    border: none;
+    border-radius: 4px;
+    background-color: #121212;
+  }
+  .searchbox::placeholder {
+    color: grey;
+    padding-left: 15px;
+    font-size: 15px;
+  }
+  
+  .searchicon {
+    height: 26px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: sans-serif;
+  }
+  
+  .microphone {
+    height: 33px;
+    background-color: #303030;
+    border-radius: 100%;
+    margin-left: 26px;
+    margin-top: 7px;
+  }
+  
+  .navfeature {
+    display: flex;
+    gap: 13px;
+    margin-left: auto;
+    margin-right: 13px;
+  }
+  
+  .creatvideoicon {
+    height: 29px;
+    margin-top: 11px;
+  }
+  .appsicon {
+    height: 17px;
+    margin-top: 16px;
+  }
+  .notificationicon {
+    height: 21px;
+    margin-top: 14px;
+  }
+  .usericon {
+    height: 25px;
+    border-radius: 100%;
+    margin-top: 12px;
+  }
+  
+  /* nav bar styling ends here */
+  
+  /* sidebar styling starts from here  */
+  
+  .sidebar {
+    width: 245px;
+    height: fit-content;
+    background-color: #212121;
+    position: sticky;
+    top: 0;
+  }
+  
+  .sidebar .Home {
+    background-color: #3030303;
+    padding: bottom 5px;
+  }
+  
+  .sidebar p {
+    color: var(--White-Color, #fff);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 13px;
+  }
+  
+  .sidebar .sidebardivider1 {
+    background: var(--border-color, #303030);
+    width: 200px;
+    height: 2px;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+  .sidebar img {
+    width: 26px;
+    margin-left: 20px;
+  }
+  
+  .sidebar > div {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+  }
+  
+  .sidebar .sidebardivider2 {
+    background: var(--border-color, #303030);
+    width: 200px;
+    height: 2px;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+  .sidebar .sidebardivider3 {
+    background: var(--border-color, #303030);
+    width: 200px;
+    height: 2px;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+  .sidebar img {
+    border-radius: 100%;
+    padding-top: 3px;
+  }
+  
+  .sidebar .exploreicon1,
+  .sidebar .exploreicon2,
+  .sidebar .exploreicon3,
+  .sidebar .exploreicon4 {
+    border-radius: 0;
+    padding-top: 8px;
+  }
+  
+  .sidebar .sidebardivider4 {
+    background: var(--border-color, #303030);
+    width: 200px;
+    height: 2px;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+  .sidebar .sidebardivider5 {
+    background: var(--border-color, #303030);
+    width: 200px;
+    height: 2px;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+  .footertext {
+    color: #aaaaaa;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 13px;
+  }
+  
+  .container {
+    display: flex;
+    margin: 0;
+  }
+  
+  .topmenu {
+    display: flex;
+    gap: 10px;
+    height: 45px;
+    background-color: #212121;
+    width: 1120px;
+    position: sticky;
+    top: 17px;
+    padding-left: 29px;
+  }
+  
+  .topmenu > div {
+    height: 32px;
+    min-width: 10px;
+    background-color: #303030;
+    color: white;
+    border-radius: 7px;
+    background: var(--border-color, #303030);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 0 12px 0 12px;
+  }
+  
+  .topmenubutton {
+    height: 21px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  
+  
